@@ -2,7 +2,6 @@ class ProjectsController < ActionController::Base
 
   def index
     @projects = Project.where(user_id: params[:user_id])
-    ap @projects
     render json: {
       success: true,
       projects: @projects
