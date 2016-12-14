@@ -29,7 +29,7 @@ gem 'bcrypt', '~> 3.1.7'
 # Because reasons
 gem 'rb-readline'
 gem 'awesome_print'
-gem 'rails_12factor', group: :production
+gem 'annotate'
 
 # Use Unicorn as the app server
 # gem 'unicorn'

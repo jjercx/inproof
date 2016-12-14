@@ -36,6 +36,9 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
+    annotate (2.7.1)
+      activerecord (>= 3.2, < 6.0)
+      rake (>= 10.4, < 12.0)
     arel (6.0.3)
     awesome_print (1.7.0)
     bcrypt (3.1.11)
@@ -102,11 +105,6 @@ GEM
       rails-deprecated_sanitizer (>= 1.0.1)
     rails-html-sanitizer (1.0.3)
       loofah (~> 2.0)
-    rails_12factor (0.0.3)
-      rails_serve_static_assets
-      rails_stdout_logging
-    rails_serve_static_assets (0.0.5)
-    rails_stdout_logging (0.0.5)
     railties (4.2.7)
       actionpack (= 4.2.7)
       activesupport (= 4.2.7)
@@ -153,6 +151,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  annotate
   awesome_print
   bcrypt (~> 3.1.7)
   byebug
@@ -161,7 +160,6 @@ DEPENDENCIES
   jquery-rails
   pg
   rails (= 4.2.7)
-  rails_12factor
   rb-readline
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
